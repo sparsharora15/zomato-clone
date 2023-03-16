@@ -1,0 +1,46 @@
+.Top ul {
+    padding: 0;
+    width: 77%;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    list-style: none;
+}
+
+.Top ul li {
+    width: 9%;
+    text-align-last: center;
+    color: #FCFCFC;
+}
+
+.Top {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.backGround {
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+}
+
+.Mid {
+    color: #FCFCFC;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 11.5rem;
+}
+
+.Mid img {
+    width: 26%;
+}
+.Mid h1 {
+    font-weight: 400;
+}

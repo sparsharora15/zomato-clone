@@ -1,0 +1,125 @@
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.topHeading {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topHeading h1 {
+    font-weight: 400;
+
+}
+
+.topHeading p {
+    margin-top: 0;
+    text-align: center;
+    line-height: 26px;
+    font-size: 18px;
+    color: rgb(105, 105, 105);
+}
+
+.topHeading h1 b {
+    font-weight: 600;
+
+}
+
+.topHeading h1 img {
+    width: 43px;
+    margin-left: 13px;
+    margin-right: 10px;
+}
+
+.stateCards {
+    width: 84%;
+    margin-right: 8%;
+    margin-left: 8%;
+    /* display: flex;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.cards {
+    padding: 10px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(232, 232, 232);
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards p {
+    margin-left: 2rem;
+    font-size: 20px;
+}
+
+.cards svg {
+    margin-left: 1rem;
+    width: 15px;
+}
+
+.cards:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.country {
+    margin-right: 8%;
+    margin-left: 8%;
+    width: 84%;
+}
+
+.details img {
+    height: 31px;
+}
+.details{
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+.details p{
+    margin-left: 15px;
+}
+.arrow svg{
+    width: 15px;
+}
+
+.countryCards {
+    padding: 10px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(232, 232, 232);
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+.countryCards:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.countryDetails {
+    width: 84%;
+    margin-right: 8%;
+    margin-left: 8%;
+    /* display: flex;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

@@ -1,0 +1,15 @@
+.Lower{
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #F8F8F8;
+    height: 29rem;
+}
+.logo{
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.logo img{
+    margin-top: 3rem;
+    width: 126px;
+}
