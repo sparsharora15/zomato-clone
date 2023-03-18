@@ -1,15 +1,91 @@
-.Lower{
+.Lower {
     margin-top: 2rem;
     width: 100%;
     background-color: #F8F8F8;
-    height: 29rem;
+    height: 31rem;
 }
-.logo{
+
+.logo {
     width: 84%;
     margin-left: 8%;
     margin-right: 8%;
 }
-.logo img{
+
+.logo img {
     margin-top: 3rem;
     width: 126px;
+}
+
+.lowerDetails {
+    margin-top: 2.7rem;
+    display: flex;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.firstCol {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.secondCol {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+.col {
+    width: 50%;
+    font-weight: 400;
+}
+
+.col p {
+    color: black;
+    font-weight: 620;
+    font-size: 17px;
+}
+
+.col ul li {
+    line-height: 1.9rem;
+    color: rgb(105, 105, 105);
+}
+
+.LOGOS img{
+
+    width: 185px;
+    height: 171px;
+}
+hr {
+    margin-top: 3rem;
+    border-width: 1px 0px 0px;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-top-style: solid;
+    border-top-color: rgb(207, 207, 207);
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.last{
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+}
+.last p{
+    font-size: 14px;
+    color: rgb(79, 79, 79);
 }
